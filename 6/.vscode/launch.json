@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Eight Puzzle",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+    ]
+}

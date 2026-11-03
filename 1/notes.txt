@@ -1,0 +1,40 @@
+1. For each problem, describe your approach along with any issues you
+encountered and if/how you managed to solve those issues.
+
+Problem 1 (Greet Three): for this problem i was try to list the all agrs in a, b, and c, then print all of them step by step, becuase i think that will be more easyer and understandeanble. 
+
+Problem 2 (Three Sort): in this problem for sort x, y, z as a min, mid, and max; we can use Math.min and Math.max to find max and min, but for mid we should add all of the x,y,z and subtract the min and max number, then we have have mid number. and when we find the min and max we should paytion on Math.min and Math. max only can sort two number, so we should use two times in a min or max numbers. 
+
+Problem 3 (Great Circle Distance): in this program we receive args[0],[1],[2],[3] as a double, and make the all degree change to the redians, then it will work in the function d, output the correct answer of distence. 
+
+Problem 4 (Uniform Random Numbers): in this program we receives a,b as integer, and set it as double and pick randome number between them, then to use function to fined m,square root of var, and var, and output the number as double. 
+
+Problem 5 (Triangle Inequality): save the argument as integer, then use boolean && to chack three side of trangle and if all of them is random two side sum is lessor equal to another side, it will be true, otherwise is false.  
+
+Problem 6 (Quadratic Equation): in this program receives a b c as double, and this three numbers is from the function of ax^2 + bx^2 +c = 0, and use in dis fuction to print the number and cheack the roots, if dis < 0 no values, dis == 0, dis > 0 has two roots. 
+
+Problem 7 (Six-sided Die): in this program we should pick random number btween 1-6, so we should use ramdom lib and rang it in [1,7], then we should make sure the location of the each of the die number. 
+
+Problem 8 (Playing Card): in this program we should save rankStr as string, and pick the random number of the card[2,14], then we should randomly pick the suit to output resoult. 
+
+Problem 9 (Greatest Common Divisor): in this GCD program, after we set up the a,b as input integer, we should use while loop to mod it and fin GCD untill mod = 0, but we must use temp to save the original number first. and ouput the GCD number.
+
+Problem 10 (Factorial Function): when we start this program, we should reseive n as integer from args[0], and start our count with 1 as long, then use for loop to run the function one by onbe count in result. 
+
+Problem 11 (Fibonacci Function): in this program we should receive the n as integer, and set a and b as the number which we should get sum, and start count with 0 in i, and use wihle loop to coumpute it. 
+
+Problem 12 (Primality Test): when we start to run this program we should reveive n as integer, and set i = 2, and use loop to cheack one by one is thai number has prime number or not. 
+
+Problem 13 (Counting Primes): for run this program we should receives n as integer, and start count with 0 that how many prime it has. and we start with loop to cheack one by one all of the prime number it has. 
+
+Problem 14 (Perfect Numbers): in this program, we should reseive n as integer. then we placed the condition inner loop, and moving the condition outside the inner loop, the program worked correctly. but when i finished this program i saw a mistake, that is i forgot to notice when i do inner loop, i forgot to do in (i <= i/2) of "=" so this was a mistake i had in this program. 
+
+Problem 15 (Ramanujan Numbers): For this problem, i used four nested loops to generate all possible combinations of integersa,b,c,dsuch that a^2 + b^2 = c^3 + d^3 and the sum is less than or equal to n. the sum is less than or equal to n. the outer two loops generate the first pair (a,b), and the inner two loops generate the second pair (c,d). for each combination. 
+
+2. List any acknowledgements here.
+
+I asked the TA for clarification on the problem requirements but implemented all solutions independently. and i also used textbook and slide of class.
+
+3. List any other comments here.
+
+this assingment really helpful for me, and it can practices for me all of the basic. thank you. 

@@ -1,0 +1,9 @@
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Java compiled files
+*.class
+
+# Java compiled output directories
+**/out/

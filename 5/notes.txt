@@ -1,0 +1,18 @@
+1. For each problem, describe your approach along with any issues you
+encountered and if/how you managed to solve those issues.
+
+Problem 1 (Implementing Term Data Type): I implemented the Term class with constructors, lexicographic comparison, and two comparators for reverse weight order and prefix matching. I initially made mistakes by printing inside toString() instead of returning a value and by not carefully handling substring boundaries in the prefix comparator. After fixing these issues and adding input validation, the implementation worked correctly.
+
+Problem 2 (Implementing Binary Search Deluxe): I implemented a generic binary search utility to find the first and last occurrence of an item in a sorted array using a comparator. The approach is based on standard binary search, where I modify the logic to continue searching left for the first index and right for the last index when a match is found. I also added null checks for input validation. Initially, I had to carefully ensure the comparator was used in the correct direction and that the search boundaries were updated properly.
+
+Problem 3 (Implementing Autocomplete): I implemented an autocomplete system that stores a sorted copy of input terms to support efficient prefix searching. The constructor creates a defensive copy of the input array and sorts it lexicographically. To find matches, I used binary search to locate the first and last indices of terms matching a given prefix, then computed the total count. next time i should more fouces on corner cases, cause i was forgot it. 
+
+2. List any acknowledgements here.
+
+I asked the TA for clarification on the problem requirements but implemented all solutions independently. and i also used textbook and slide of class.
+
+
+
+3. List any other comments here.
+
+this assingment really helpful for me, and it can practices for me all of the basic. thank you.

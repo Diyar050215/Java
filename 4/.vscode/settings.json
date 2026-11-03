@@ -1,0 +1,10 @@
+{
+    "editor.rulers": [80],
+    "github.copilot.enable": { "*": false },
+    "java.inlayHints.parameterNames.enabled": "none",
+    "java.project.referencedLibraries": [
+        "~/lib/stdlib.jar",
+        "~/lib/dsa.jar",
+    ],
+    "workbench.startupEditor": "none",
+}

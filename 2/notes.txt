@@ -1,0 +1,27 @@
+1. For each problem, state its goal in your own words and describe your approach to solve the 
+problem along with any issues you encountered and if/how you managed to solve those issues.
+
+[Problem 1 (Compute Edit Distance)]
+
+Goal: The goal of this program is to compute the minimum alignment cost between two input strings x and y using dynamic programming.Specifically, the program constructs a 2D table opt where each entry opt[i][j] represents the minimum cost of aligning the suffix of x starting at index i with the suffix of y starting at index j.
+
+Approach: This program computes the minimum edit/alignment cost between two strings by solving all subproblems using dynamic programming and storing the results in a 2D table.
+
+[Problem 2 (Recover Alignment)]
+
+Goal: The goal of this program is to reconstruct an optimal alignment between two input strings x and y using a precomputed dynamic programming table opt.
+
+Approach: This program reconstructs the optimal alignment by tracing decisions from the DP table, choosing the operation that led to the minimum cost at each step.
+
+2. Did you receive any help? List the sources along with a short description of the help received.
+
+Source                               Help Received
+------                               -------------
+Si                                      Problem2
+TA                                      explain all homework logic 
+textbook                                help to review all basic part 
+
+3. List any other comments here. Feel free to provide any feedback on how much you learned from
+doing the assignment, and whether you enjoyed doing it.
+
+this assingment really helpful for me, and it can practices for me all of the basic. thank you. 

@@ -1,0 +1,12 @@
+{
+    "editor.rulers": [80],
+    "github.copilot.enable": { "*": false },
+    "java.inlayHints.parameterNames.enabled": "none",
+    "java.project.referencedLibraries": [
+        "~/lib/stdlib.jar",
+        "~/lib/dsa.jar",
+        "/Users/diyar/lib/dsa.jar",
+        "/Users/diyar/lib/stdlib.jar"
+    ],
+    "workbench.startupEditor": "none",
+}

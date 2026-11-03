@@ -1,0 +1,16 @@
+1. For each problem, describe your approach along with any issues you
+encountered and if/how you managed to solve those issues.
+
+Problem 1 (Board Data Type):I implemented the Board data type by precomputing hamming, manhattan, and blankPos in the constructor. For isSolvable(), I used Inversions.count() on a 1D array of tiles in row-major order. The main issue was that Inversions.count() returns a long, not an int, which caused a compile error that I fixed by changing the variable type.
+
+Problem 2 (Solver Data Type): I implemented the A* algorithm using a MinPQ of SearchNodes, where each node's priority is its Manhattan distance plus the number of moves. Once the goal board is found, I reconstructed the solution by walking back through previous references and pushing boards onto a LinkedStack.
+
+2. List any acknowledgements here.
+
+I asked the TA for clarification on the problem requirements but implemented all solutions independently. and i also used textbook and slide of class.
+
+
+3. List any other comments here.
+
+this assingment really helpful for me, and it can practices for me all of the basic. thank you.
+

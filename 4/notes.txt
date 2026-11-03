@@ -1,0 +1,15 @@
+1. For each problem, describe your approach along with any issues you
+encountered and if/how you managed to solve those issues.
+
+Problem 1 (Implementing the Deque Data Type): I implemented the deque using a doubly-linked list with first, last, and n to track the structure. The main issue I encountered was a NullPointerException in removeFirst, caused by updating the pointer before saving the item.Overall, I resolved issues by carefully handling edge cases and pointer updates.
+
+Problem 2 (Implementing the Random Queue Data Type): I implemented a random queue using a resizing array, where items are stored in an array and resized dynamically when full or sparse. For dequeue, I selected a random index, swapped it with the last element, and removed it to maintain efficiency,i was confuses how the array resizing worked without elements, but after read the private function resized, i understooed everything. 
+
+2. List any acknowledgements here.
+
+I asked the TA for clarification on the problem requirements but implemented all solutions independently. and i also used textbook and slide of class.
+
+
+3. List any other comments here.
+
+this assingment really helpful for me, and it can practices for me all of the basic. thank you.

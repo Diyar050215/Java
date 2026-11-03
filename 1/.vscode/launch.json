@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Die",
+            "request": "launch",
+            "mainClass": "Die",
+            "projectName": "simple_programs_e85e833c"
+        },
+        {
+            "type": "java",
+            "name": "Simple Programs",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "${command:SpecifyProgramArgs}"
+        }
+    ]
+}

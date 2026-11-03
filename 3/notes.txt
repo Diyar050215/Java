@@ -1,0 +1,30 @@
+Gola1. For each problem, state its goal in your own words and describe your approach to solve the 
+problem along with any issues you encountered and if/how you managed to solve those issues.
+
+Problem 1 (Percolation Data Type): ...
+
+Goal: The goal of this program is to model an n×n percolation system and determine whether the system percolates, meaning there exists a connected path of open sites from the top row to the bottom row.
+
+Approach: The program represents the grid using a 2D boolean array to track open and blocked sites. It uses the Union-Find data structure to efficiently connect adjacent open sites.When a site is opened, it is connected to its open neighbors and to virtual nodes if it lies on the top or bottom row. The system percolates if the virtual top and bottom nodes are connected.
+
+Problem 2 (Estimation of Percolation Threshold): ...
+
+Goal: The goal of this program is to estimate the percolation threshold of an n×n system by performing multiple independent experiments and computing statistical measures such as the mean, standard deviation, and 95% confidence interval.
+
+Approach: The program runs m independent simulations of a percolation system. In each experiment, random sites are opened until the system percolates.Finally, the 95% confidence interval is calculated using standard statistical formulas.
+
+2. Did you receive any help? List the sources along with a short description of the help received.
+
+Source                               Help Received
+------                               -------------
+SI teacher                           i was got the help from Si teacher, and she helped me to download my zip on currect fiels. and she taught me how to start my assignment, and how to write the notes. 
+text book                            i read the text book, then relized how should i currected give comman for my program
+lecture material                     it was helped me to recall all of the part that professor taught us in class 
+
+
+3. List any other comments here. Feel free to provide any feedback on how much you learned from
+doing the assignment, and whether you enjoyed doing it.
+
+i was really enjoy my assignment, because after the excersice i can totally understan the problems, and also i leard how to logically thinking any of the quastion, and set the commend for them. and i really can feel the assighnment is littile bit challenging. 
+
+
